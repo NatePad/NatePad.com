@@ -1,0 +1,195 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+.card-title,
+.card-header {
+  font-family: 'Inconsolata', monospace;
+  font-weight: 700;
+}
+
+#about-me,
+#portfolio,
+#notes {
+  padding-top: 80px;
+}
+
+/* HERO SECTION */
+
+#hero {
+  background: url(../img/tim-arterbury-VkwRmha1_tI-unsplash-resized.jpg) no-repeat top center;
+  background-size: cover;
+  padding: 250px 0 200px 0;
+  position: relative;
+  width: 100%;
+}
+
+#brand {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 20px;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+#brand h1,
+#brand h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.brand-monospace {
+  font-family: 'Inconsolata', monospace;
+  font-weight: 400;
+  color: #0ff
+}
+
+.fa-heart {
+  color: red;
+}
+
+#hero h1 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56px;
+  color: #fff;
+}
+
+#hero h2 {
+  color: #eee;
+  font-size: 24px;
+}
+
+/* NAVBAR */
+
+#navbarSupportedContent {
+  background-color: #fff;
+  z-index: 999;
+}
+
+.show li {
+  margin-left: 20px;
+  margin-right: 70px;
+}
+
+.show li:not(:last-child) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-size: 25px;
+}
+
+.navbar {
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Inconsolata', monospace;
+  font-size: 20px;
+  font-weight: 700;
+  height: 70px;
+  width: 100%;
+  z-index: 9999;
+}
+
+.navbar-expand-lg .nav-item .nav-link {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.navbar-expand-lg .nav-item:hover {
+  background-color: #5ee;
+  border-radius: 10px;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: rgba(0, 0, 0, .8);
+}
+
+/* PORTFOLIO CARDS */
+
+.btn-custom {
+  background-color: #0bb;
+  color: #fff
+}
+
+.btn-custom:hover {
+  background-color: #077;
+  color: #fff;
+}
+
+/* SOCIAL LINKS */
+
+.parallax {
+  background-image: url(../img/yichen-wang-pnJU5QSvXdg-unsplash-resized.jpg);
+  color: #fff;
+  padding-top: 150px;
+  padding-bottom: 120px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax a {
+  color: #fff;
+}
+
+.parallax a:hover {
+  color: #aff;
+}
+
+.caption {
+  font-family: 'Inconsolata', monospace;
+  font-size: 24px;
+}
+
+.fa-7x {
+  font-size: 7em;
+}
+
+#footer {
+  background-color: #212529;
+  border-top: 5px solid #0cc;
+  color: #fff;
+  margin-top: 80px;
+  z-index: 999;
+}
+
+#footer p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#profile-pic {
+  float: none;
+  width: 100%;
+}
+
+/* Landscape Phones */
+@media screen and (min-width: 576px) {
+  #profile-pic {
+    float: left;
+    margin-right: 1.5rem;
+    margin-bottom: .15rem;
+    width: 250px;
+  }
+}
+
+/* Tablets and 720p Screens*/
+@media screen and (min-width: 768px) {
+}
+
+/* 1080p Screens */
+@media screen and (min-width: 992px) {
+}
+
+/* Larger than 1080p: 2k Screens and up*/
+@media screen and (min-width: 1200px) {
+}
