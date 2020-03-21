@@ -172,6 +172,16 @@ h4,
   width: 100%;
 }
 
+#test-prep-screen {
+  height: 388px;
+  width: 500px;
+}
+
+#rawg-search-screen {
+  height: 389px;
+  width: 500px;
+}
+
 /* Landscape Phones */
 @media screen and (min-width: 576px) {
   #profile-pic {
