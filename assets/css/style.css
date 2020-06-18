@@ -73,6 +73,15 @@ h4,
   z-index: 999;
 }
 
+#contact::before {
+  display: block;
+  content: " ";
+  margin-top: -100px;
+  height: 100px;
+  visibility: hidden;
+  pointer-events: none;
+}
+
 .show li {
   margin-left: 20px;
   margin-right: 70px;
